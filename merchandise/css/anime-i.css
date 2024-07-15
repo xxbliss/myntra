@@ -1,0 +1,166 @@
+ .anime-child,
+.anime-inner,
+.anime-item {
+  position: absolute;
+  top: 29px;
+  left: 451px;
+  width: 555px;
+  height: 233px;
+  object-fit: cover;
+}
+.anime-inner,
+.anime-item {
+  left: 874px;
+}
+.anime-inner {
+  left: 0;
+}
+.group-icon {
+  position: absolute;
+  height: 1.06%;
+  width: 12.99%;
+  top: 27.15%;
+  right: 37.22%;
+  bottom: 71.79%;
+  left: 49.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.top-categories {
+  position: absolute;
+  top: 150px;
+  left: 310px;
+  font-family: var(--font-italiana);
+  display: inline-block;
+  width: 317px;
+  height: 107px;
+  font-size: 40px;
+}
+.group-child,
+.group-inner,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 330.5px;
+  height: 240.6px;
+  object-fit: cover;
+}
+.group-inner,
+.group-item {
+  left: 869.48px;
+}
+.group-inner {
+  left: 469.48px;
+  width: 303.3px;
+}
+.anime-figure,
+.tees,
+.totebags {
+  position: absolute;
+  top: 256.95px;
+  left: 584.04px;
+  display: inline-block;
+  width: 71.4px;
+  height: 34.3px;
+}
+.anime-figure,
+.totebags {
+  top: 261px;
+  left: 70px;
+  width: 218px;
+  height: 34px;
+}
+.totebags {
+  top: 261.03px;
+  left: 983.1px;
+  width: 141.8px;
+  height: 40px;
+}
+.rectangle-parent,
+.vector-icon {
+  position: absolute;
+  top: 402px;
+  left: 116px;
+  width: 1200px;
+  height: 301px;
+}
+.vector-icon {
+  height: 6.35%;
+  width: 4.31%;
+  top: 0.2%;
+  right: 95.69%;
+  bottom: 93.46%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.joggers,
+.shoes {
+  position: absolute;
+  top: 231.18px;
+  left: 115.95px;
+  display: inline-block;
+  width: 141.2px;
+  height: 37px;
+}
+.shoes {
+  left: 591.89px;
+}
+.group-child1,
+.group-child2,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 329.1px;
+  height: 210.8px;
+  object-fit: cover;
+}
+.group-child1,
+.group-child2 {
+  left: 467.53px;
+  width: 302px;
+}
+.group-child2 {
+  left: 865.86px;
+  width: 329.1px;
+}
+.deskmat,
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1195px;
+  height: 210.8px;
+}
+.deskmat {
+  top: 237.98px;
+  left: 979px;
+  display: inline-block;
+  width: 141.2px;
+  height: 37px;
+}
+.joggers-parent {
+  position: absolute;
+  top: 739px;
+  left: 121px;
+  width: 1195px;
+  height: 275px;
+}
+.anime {
+  width: 100%;
+  position: relative;
+  background-color: #d9d9d9;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-ruslan-display);
+}

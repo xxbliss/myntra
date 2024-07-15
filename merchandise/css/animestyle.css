@@ -1,0 +1,33 @@
+ body {
+    background-color: rgb(233, 231, 231);
+    padding: 0% 0% 0% 3%;
+  }
+  
+  .gallery {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    gap: 2px;
+  }
+  
+  .gallery img {
+    width: 10%;
+    height: 135%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .gallery h3{
+    position: absolute;
+    font-size: 50px;
+    bottom:20px;
+    margin-left:10px;
+    opacity: 0;
+    color: #ffffff;
+  }
+  
+  .gallery img:hover {
+    width: 100%;
+  }

@@ -1,0 +1,19 @@
+ body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-ruslan-display: "Ruslan Display";
+    --font-italiana: Italiana;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+  
+    /* Colors */
+    --color-black: #000;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+  }

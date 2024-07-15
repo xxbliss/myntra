@@ -1,0 +1,11 @@
+.fashion-lab-image {
+    width: 100%;
+    position: relative;
+    height: 100vh; /* Set to full viewport height to ensure the image covers the screen */
+    background-image: url("file:///Users/vaishalichhipi/Desktop/fashion%20lab.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+  

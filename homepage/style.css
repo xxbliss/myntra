@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+cont{
+    display: flex;
+    justify-content: center;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 50px;
+    ;
+}.logo{
+    background-image: url("Myntra-Logo.png");
+    background-size: cover;
+    height:40px;
+    width: 36px;
+    position: absolute;
+    top:9px;
+}
+.panel-ops{
+    width:80%;
+    font-size: 0.99rem;
+   
+    margin-left: 400 px;
+}
+
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.searchbar{
+    display:flex;
+    height: 40px;
+    background-color:#f3cfd9;
+    width:100px;
+    border-radius: 5px;
+}
+
+input{
+    width: 130px;
+    border:none;
+}
+.search-select{
+    margin-left :60px;
+    font-size: medium;
+    font-weight: 700;
+    width:130px;
+    background-color: #f3f3f3;
+    text-align:center;
+    border:none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color:#f3cfd9;
+    
+} 
+.searchbar:hover{
+    border: 2px solid #f3cfd9;
+}
+.panel{
+height:40px;
+    background-color:#ffcdda;
+    display:flex;
+    justify-content: space-evenly;
+    color:rgb(0, 0, 0);
+    align-items: center;
+    font-weight: 700;
+    height: 60px;
+}
+.magaz{
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+}
+.offers{
+    font-size:large;
+    font-weight: 600;
+    background-image: url("Screenshot_12-7-2024_154951_pngtree.com.jpeg");
+    filter: blur(100%);
+    filter: brightness(170%);
+    width:auto;
+    height: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 12px;
+    justify-content: baseline;
+}
+.seperationline{
+    height: 2px;
+    width: auto;
+    background-color: #f3cfd9;
+}
+.seperationline2{
+    height: 2px;
+    width: auto;
+    background-color: #f3cfd9;
+    position: absolute;
+    bottom: 700 px;
+}
+.carousel{
+    height: 100%;
+    width: 100%;
+    background-image: url("img7.jpg");
+    position: absolute;
+    top: 500px;
+}
+
+
+.container{
+    width:1300px;
+    height:300px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    overflow: hidden;
+
+}
+.wrapper{
+    width:100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes slide{
+    0%{
+        transform:translate(0);
+    }
+    25%{
+        transform:translate(0);
+    }
+    30%{
+        transform:translate(-100%);
+    }
+    50%{
+        transform:translate(-100%);
+    }
+    55%{
+        transform:translate(-200%);
+    }
+    75%{
+        transform:translate(-200%);
+    }
+    80%{
+        transform:translate(-300%);
+    }
+    100%{
+        transform:translate(-300%);
+    }
+
+
+}
+.shopsection{
+    height: 650px;
+    width:100%;
+    position: relative;
+    top: 400px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 10px;;
+}
+.boxsection{
+    height: 200px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.box{
+    height:300px;
+    width: 23%;
+    padding:20px 0px 15px;
+    margin-top: 29px;
+    background-color:white;
+}
+.boxcontent{
+    margin-left: 1 rem;
+    margin-right:1 rem;
+}
+.Boximage{
+    height:300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom:2 rem;
+}
+ footer{
+    margin-top: 65px;
+    position: relative;
+    top: 150px;
+    width: 1200px;
+}
+.footpanel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    width:1200px;
+    display:flex;
+    justify-content: center; 
+    align-items:center;
+    font-size: 0.85rem;
+}
